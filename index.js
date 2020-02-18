@@ -19,6 +19,7 @@
 // My name is Kevin.
 // My id is 2112.
 // My address is Memphis, TN.
+
 // let my_name= "charles"
 // let my_id= "2112"
 // let my_address= "Memphis, Tn"
@@ -64,15 +65,44 @@
 // - Prompts the user for the name of the Visiting team
 // - Prompt the user to enter the score for their home team *(include the team name when prompting the user)*
 // `How many points did the Memphis Grizzlies score? (Home team score)`
-// - Prompt the user to enter the score for the visiting team *(include the team name when prompting the user)*
-// `How many points did the GS Warriors score? (Visting team score)`
 
-// In your program determine which team won the game with the highest score and display the results in an alert box.
+// let homeTeam=prompt("Home Team Name")
+// let visitingTeam=prompt("Visiting Team Name")
+// let homeTeamscore=prompt(`How many points did the Home/${homeTeam} score? `)
 
-// Expected Output:
-// ```
-// Looks like the Memphis Grizzles have defeated the GS Warriors!
+// // - Prompt the user to enter the score for the visiting team *(include the team name when prompting the user)*
+// // `How many points did the GS Warriors score? (Visting team score)`
 
-// FINAL SCORE:
-// Home/Memphis Grizzlies: 102
-// Visitors/GS Warriors: 23
+// let visitingTeamscore=prompt(`How many points did the Visitors/${visitingTeam} score? `)
+
+// // In your program determine which team won the game with the highest score and display the results in an alert box.
+
+// // Expected Output:
+// // ```
+// // Looks like the Memphis Grizzles have defeated the GS Warriors!
+
+// // FINAL SCORE:
+// // Home/Memphis Grizzlies: 102
+// // Visitors/GS Warriors: 23
+
+
+// if(homeTeamscore > visitingTeamscore){
+//     alert(`Looks like the Home Team Defeated Visiting Team!
+// FINAL SCORE
+// ${homeTeam} ${homeTeamscore}
+// ${visitingTeam} ${visitingTeamscore}`)
+// }
+
+
+// else if(homeTeamscore < visitingTeamscore){
+//     alert(`Aww...the Home Team lost 
+//     FINAL SCORE
+//     ${homeTeam} ${homeTeamscore}
+//     ${visitingTeam} ${visitingTeamscore}`
+//     )
+// }
+// else 
+//     alert(`It's a tie...Kill the Ref's 
+//     FINAL SCORE
+//     ${homeTeam} ${homeTeamscore}
+//     ${visitingTeam} ${visitingTeamscore}`)
