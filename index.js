@@ -2,6 +2,8 @@
 // ### Exercise 1:
 // Create a template string and assign it to the variable ```my_template_string```.
 
+
+
 // The template string should contain the following data only:
 
 // ```
@@ -9,7 +11,6 @@
 // My id is ${my_id}.
 // My address is ${my_address}.
 // ```
-
 
 
 // Use the template string you created and assigned to the variable ```my_template_string``` to log the formatted output to the console.
@@ -20,14 +21,14 @@
 // My id is 2112.
 // My address is Memphis, TN.
 
-// let my_name= "charles"
-// let my_id= "2112"
-// let my_address= "Memphis, Tn"
-// let my_template_string=(` My name is ${my_name}.
-//  My id is ${my_id}.
-//  My address is ${my_address}.`)
+let my_name= "charles"
+let my_id= "2112"
+let my_address= "Memphis, Tn"
+let my_template_string=(` My name is ${my_name}.
+ My id is ${my_id}.
+ My address is ${my_address}.`)
 
-//  console.log(`${my_template_string}`)
+ console.log(`${my_template_string}`)
 
  // Create the variables ```my_name```, ```my_id```, and ```my_address``` and set their values to ```Kevin```, ```2112```, and ```Memphis, TN```.
 
